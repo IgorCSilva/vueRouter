@@ -1,0 +1,12 @@
+npm install vue-resource (para fazer requisições)
+npm install pug --save-dev (para usar pug)
+npm install --save vuex (para manipulação de estados)
+
+
+carousel(
+                    :perPage="1" style="margin-left: -10px; padding: 10px"
+                )                     
+                                            
+                        slide
+                            img.w3-round-large(:src="require('../../../assets/image1.jpg')" style="width: 100%")
+                                
